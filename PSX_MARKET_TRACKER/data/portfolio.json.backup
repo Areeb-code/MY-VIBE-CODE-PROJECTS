@@ -1,0 +1,18 @@
+{
+    "transactions": [
+        {
+            "id": "260fd6ae-4837-44d2-aabf-a17550581b74",
+            "symbol": "DCL",
+            "quantity": 100,
+            "price": 380.0,
+            "type": "BUY",
+            "date": "2026-02-12 00:44:53"
+        }
+    ],
+    "alerts": {
+        "DCL": {
+            "limit_upper": 0.0,
+            "limit_lower": 0.0
+        }
+    }
+}

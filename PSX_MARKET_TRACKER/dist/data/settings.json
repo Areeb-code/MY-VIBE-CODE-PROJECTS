@@ -1,0 +1,10 @@
+{
+    "user_name": "SALIK",
+    "refresh_interval": 60,
+    "notifications_enabled": true,
+    "theme": "dark",
+    "auto_save_portfolio": true,
+    "run_in_background": true,
+    "first_run": false,
+    "user_logo_path": ""
+}

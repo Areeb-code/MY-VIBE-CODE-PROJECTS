@@ -1,0 +1,8 @@
+{
+    "DCL": {
+        "quantity": 34,
+        "buy_price": 400.0,
+        "limit_upper": 0.0,
+        "limit_lower": 0.0
+    }
+}

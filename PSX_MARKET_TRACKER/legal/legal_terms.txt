@@ -1,0 +1,24 @@
+PSX TRACKER PRO - LEGAL TERMS & CONDITIONS
+==========================================
+
+I. INTELLECTUAL PROPERTY
+-----------------------
+All source code, user interface designs, logos, graphics, and algorithms associated with PSX Tracker Pro are the exclusive intellectual property of Areeb Siddiqui. Unauthorized reproduction, distribution, or decompilation of this software is strictly prohibited and protected by international copyright laws.
+
+II. NO FINANCIAL ADVICE
+----------------------
+This software is provided for informational and educational purposes only. The information displayed, including stock prices and market data, does not constitute financial, investment, or professional advice. Areeb Siddiqui is not a registered financial advisor. Users should perform their own due diligence or consult with a licensed professional before making any financial decisions or trades.
+
+III. DATA SCRAPING DISCLAIMER
+---------------------------
+PSX Tracker Pro fetches data from publicly available sources on the internet. While every effort is made to ensure the accuracy of the data, the software does not guarantee the timeliness, completeness, or accuracy of the information. Users are responsible for ensuring their use of this data complies with the terms of service of the original data providers and relevant exchange rules.
+
+IV. LIMITATION OF LIABILITY
+-------------------------
+In no event shall Areeb Siddiqui be liable for any financial losses, damages, or unintended consequences arising from the use or inability to use this software. This includes, but is not limited to, losses resulting from data inaccuracies, software bugs, or market volatility. The software is provided "AS IS" without warranty of any kind.
+
+V. USER ACKNOWLEDGMENT
+---------------------
+By using PSX Tracker Pro, you acknowledge that you have read, understood, and agreed to these terms. These terms are subject to change without prior notice.
+
+© 2026 Areeb Siddiqui. All Rights Reserved.

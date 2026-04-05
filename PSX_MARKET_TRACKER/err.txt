@@ -1,0 +1,13 @@
+Testing Backend Flow...
+DB Init successful
+Owner setup successful
+Owner auth successful
+Broker auth successful
+Client creation successful
+Client auth successful
+Migrating legacy JSON data to SQLite for current user...
+Client can see data added by broker for them
+Client isolation confirmed
+Broker isolation confirmed
+Owner visibility confirmed
+All backend tests passed!
