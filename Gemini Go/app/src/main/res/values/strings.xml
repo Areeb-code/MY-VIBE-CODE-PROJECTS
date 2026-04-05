@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Spark Go</string>
+    <string name="welcome_title">Welcome to Spark Go</string>
+    <string name="welcome_subtitle">Your AI assistant, always ready to help</string>
+    <string name="get_started">Get Started</string>
+    <string name="offline_title">Internet Unavailable</string>
+    <string name="offline_message">Connect to the internet to start chatting with Spark Go</string>
+    <string name="try_again">Try Again</string>
+    <string name="assistant_greeting">Hi, I\'m Spark Go</string>
+    <string name="assistant_hint">Type, talk, or share a photo</string>
+    <string name="next">Next</string>
+    <string name="assistant_ask_hint">Ask Spark Go</string>
+    <string name="content_desc_spark">Spark Go Icon</string>
+    <string name="content_desc_mic">Microphone</string>
+</resources>

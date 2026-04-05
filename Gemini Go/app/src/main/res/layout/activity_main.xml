@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/offlineView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:visibility="visible">
+
+        <!-- Top Bar (Spark Go Style) -->
+        <LinearLayout
+            android:id="@+id/topBar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:gravity="center_vertical">
+
+            <!-- Spark Go Flame Icon (using emoji for now) -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔥"
+                android:textSize="24sp"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="20sp"
+                android:textColor="#1A73E8"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+
+        <!-- Chat Area -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/topBar"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="32dp">
+
+            <!-- Animated Spark Go Logo -->
+            <!-- High-End Animated Logo (Living Fire) -->
+            <com.unofficial.geminigo.LogoFireView
+                android:id="@+id/logoFireView"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginBottom="32dp" />
+
+            <!-- No Internet Message -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/offline_title"
+                android:textSize="24sp"
+                android:textColor="#5F6368"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/offline_message"
+                android:textSize="14sp"
+                android:textColor="#80868B"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Reload Button -->
+            <TextView
+                android:id="@+id/reloadButton"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:minWidth="140dp"
+                android:text="@string/try_again"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@drawable/reload_button_bg"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
